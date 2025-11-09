@@ -33,6 +33,7 @@ app.use((req, res, next) => {
 });
 app.use('/api/sellerLogin', sellerLogin);
 app.use('/api/sellerProductUpload', sellerProductUpload);
+app.use('/',"Q Fashion Lab Server Online...");
 
 
 app.listen(PORT, () => {
